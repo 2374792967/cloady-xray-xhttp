@@ -25,7 +25,7 @@ cat > /etc/xray/config.json <<EOF
       "streamSettings": {
         "network": "xhttp",
         "security": "none",
-        "xhttpSettings": {"path": "/$XPATH", "mode": "stream"}
+        "xhttpSettings": {"path": "/$XPATH"}
       }
     },
     {
@@ -38,7 +38,7 @@ cat > /etc/xray/config.json <<EOF
       "streamSettings": {
         "network": "xhttp",
         "security": "none",
-        "xhttpSettings": {"path": "/$XPATH", "mode": "stream"}
+        "xhttpSettings": {"path": "/$XPATH"}
       }
     }
   ],
